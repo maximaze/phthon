@@ -12,5 +12,5 @@ b = 4
 c = a % b
 print('a=', a)
 print('b=', b)
-print('c=', c)
+print('c=', c) # 나머지 :2 
 

@@ -1,4 +1,6 @@
 # 인스턴스
+# isinstance(객체, 자료형) -> True, False
+# 
 
 # type : 자료형을 알려 준다.
 f = 0.1234

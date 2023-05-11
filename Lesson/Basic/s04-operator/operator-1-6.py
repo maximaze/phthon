@@ -17,3 +17,10 @@ print('g=divmod(a,b) :g=', g)
 print('몫 : ', g[0])
 print('나머지 : ', g[1])
 
+# Tuple(unpacking)
+x, y = g
+print(g,x,y)
+
+# 몫과 나머지를 분리하여 각각의 변수에 할당
+z, y = divmod(a,b)
+print(x,y)

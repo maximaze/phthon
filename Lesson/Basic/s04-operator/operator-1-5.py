@@ -14,5 +14,20 @@ f = a // b
 print('[정수나누기]')
 print('a=', a)
 print('b=', b)
-print('f=b // a :', f)
+print('f=a // b :', f)
+print('id(a) : ', id(a))
+
+# 실수를 정수나누기
+# 기존의 변수에 다른 자료형으 ㄹ넣으면 새로운 메모리 번지가 할당된다.
+a = 10.0
+b = 3.0
+c = a // b
+print('c=', c) # 3.0
+print(type(c)) # <class 'float'>
+print("id(a) : ", id(a))
+
+# 기존의 변수에 다른 값을 넣으면 새로운 메모리 변지가 할당된다.
+a = 3.14
+print("id(a) : ", id(a))
+
 

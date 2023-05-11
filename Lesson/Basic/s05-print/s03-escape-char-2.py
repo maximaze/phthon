@@ -22,3 +22,5 @@ print(r"He is always saying \\Could you say is again?\\")
 msg = r"He is always saying \nCould you say is again?\\"
 print(msg)
 
+print(r"He is always saying \tCould you say is again?\n")
+

@@ -8,6 +8,7 @@ cnt = 0
 tot = 0
 
 # 리스트에 들어 있는 값 가운데 짝수의 합
+
 while cnt < len(lists):
     val = lists[cnt]
 

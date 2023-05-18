@@ -13,7 +13,7 @@ def multireturn_totavg(*args):
 
 # unpacking <- tuple
 tot, avg = multireturn_totavg(1,2,3,4,5)    # 평균
-
+print("# unpacking <- tuple")
 print('총합=', tot)
 print('평균=', avg)
 
@@ -24,13 +24,13 @@ result = multireturn_totavg(1,2,3,4,5)
 
 tot,avg = result
 
-print("# tuple")
+print(f"# result : {result}, {type(result)}")
 print('총합=',tot)
 print('평균=',avg)
 
 #%%
 
 result = multireturn_totavg(1,2,3,4,5)
-print("# tuple 인덱스로 접근")
+print(f"# {type(result)} 인덱스로 접근")
 print('총합=',result[0])
 print('평균=',result[1])

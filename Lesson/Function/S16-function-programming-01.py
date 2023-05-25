@@ -1,7 +1,7 @@
 # Function Programming(함수형 프로그래밍)
 
 def score(name, *args): # 외부함수
-    print(f"[score] name({name}))")
+    
     
     def minmax():   # 내부함수: 최소값, 최대값
         min = -1;
@@ -14,6 +14,7 @@ def score(name, *args): # 외부함수
                 max = val
                 
         return min, max
+    print(f"[score] name({name}))")
     return minmax   # 내부함수를 리턴
 
 #%%
